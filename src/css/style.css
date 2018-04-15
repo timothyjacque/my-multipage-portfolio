@@ -1,0 +1,179 @@
+body {
+  overflow-x: hidden; }
+
+#work img {
+  width: 100%; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+  border-bottom: #fff 3px solid; }
+
+.carousel-item {
+  height: 500px; }
+
+.carousel-image-1 {
+  background: url("../img/engineering.jpeg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/programming.jpeg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/business.jpeg");
+  background-size: cover; }
+
+.fa {
+  font-size: 55px; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/rocket.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff; }
+  #home-heading .fa {
+    font-size: 20px; }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#video-play {
+  padding-top: 70px;
+  position: relative;
+  min-height: 250px;
+  background: url("../img/brainstorm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: -350px -200px;
+  text-align: center;
+  color: #fff; }
+  #video-play a {
+    color: #fff; }
+
+#fun-header {
+  height: 350px;
+  background: url("../img/fun.jpeg");
+  background-attachment: fixed;
+  background-position: 0 -800px;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 150px; }
+
+#education-header {
+  height: 350px;
+  background: url("../img/education.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0px 0px;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 120px; }
+
+#work-header {
+  height: 350px;
+  background: url("../img/work.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0px -450px;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 120px; }
+
+#contact-header {
+  height: 350px;
+  background: url("../img/contact.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -210px;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 120px; }
+
+#about img {
+  margin-top: -50px; }
+
+#main-footer .fa {
+  font-size: 20px; }
+
+#main-footer .btn:hover {
+  cursor: pointer; }
+
+.social-media .fa {
+  font-size: 20px !important; }
+
+.card, .wrapper {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+.wrapper > * {
+  padding: 1em; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+  ul .fa {
+    font-size: 20px; }
+
+.company-info h3, .company-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0; }
+
+.contact .fa {
+  font-size: 20px; }
+
+/* FORM STYLES */
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #28A745;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none; }
+
+/* LARGE SCREENS */
+@media (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr; }
+  .wrapper > * {
+    padding: 2em; }
+  .company-info h3, .company-info ul, .brand {
+    text-align: left; } }
+
+@media (min-width: 34em) {
+  .card-columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1; } }
+
+@media (min-width: 48em) {
+  .card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2; } }
+
+@media (min-width: 62em) {
+  .card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3; } }
+
+@media (min-width: 75em) {
+  .card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3; } }
