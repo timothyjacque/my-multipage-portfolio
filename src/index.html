@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio | Timothy Jacque</title>
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Portfolio | Timothy Jacque</a>
+      <div class="social-media"><a href="https://www.linkedin.com/in/timothyjacque/" class="text-white"><i class="fa fa-linkedin-square mr-3"></i></a></div>
+      <div class="social-media"><a href="https://github.com/timothyjacque" class="text-white"><i class="fa fa-github"></i></a></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navNavbar"><span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="college.html" class="nav-link">College</a>
+          </li>
+          <li class="nav-item">
+            <a href="fun.html" class="nav-link">Fun</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="dark-overlay">
+            <div class="container">
+              <div class="carousel-caption text-left mb-5">
+                <h1 class="display-4"><strong>Product Engineering</strong></h1>
+                <p class="lead d-none d-md-block">From ideas to finished products. I have experience bringing 12+ products to life through sketching, rapid prototyping, CAD modeling, 3D printing, and scaling for production.</p>
+                <a href="#info" class="btn btn-primary btn-lg mt-2">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-2">
+          <div class="dark-overlay">
+            <div class="container">
+              <div class="carousel-caption text-center mb-5">
+                <h1 class="display-4"><strong>Web Development</strong></h1>
+                <p class="lead d-none d-md-block">Want to reach more people and leave a lasting impression? I have experience with coding the front end of 5+ websites! In addition, I can program one-of-a-kind desktop applications.</p>
+                <a href="#info" class="btn btn-primary btn-lg mt-2">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-3">
+          <div class="dark-overlay">
+            <div class="container">
+              <div class="carousel-caption text-right mb-5">
+                <h1 class="display-4"><strong>Business Analytics</strong></h1>
+                <p class="lead d-none d-md-block"><strong>Need to improve the bottom line? I have experience with building 7+ detailed databases from scratch, and I have mined big data for critical insights.</strong></p>
+                <a href="#info" class="btn btn-primary btn-lg mt-2">View More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- HOME ICON SECTION -->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-1 text-center">
+          <i class="fa fa-gears mb-2"></i>
+          <h3>Product Engineering</h3>
+          <p>I love bringing ideas to life through sketching, CAD modeling, and 3D printing.</p>
+        </div>
+        <div class="col-md-4 mb-1 text-center">
+          <i class="fa fa-cloud mb-2"></i>
+          <h3>Web Development</h3>
+          <p>I love creating websites that can reach millions of people through the power of the Internet.</p>
+        </div>
+        <div class="col-md-4 mb-1 text-center">
+          <i class="fa fa-pie-chart mb-2"></i>
+          <h3>Business Analytics</h3>
+          <p>I love building complex databases from scratch and examining them for patterns.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOME HEADING SECTION -->
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>My Skills</h1>
+
+            <!-- TAKE A LOOK AT CLASS FOR OVERFLOWS -->
+            <p class="d-none d-md-block pt-3">
+              Engineer's Motto... If it isn't broken, take it apart and fix it.
+              <i class="fa fa-smile-o"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO SECTION-->
+  <section id="info" class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center py-3">
+          <div class="card">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" data-toggle="tab" href="#productEngineering">Product Engineering</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" data-toggle="tab" href="#webDevelopment">Web Development</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" data-toggle="tab" href="#businessAnalytics">Business Analytics</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" data-toggle="tab" href="#otherSkills">Other Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" data-toggle="tab" href="#softSkills">Soft Skills</a>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content">
+              <div class="tab-pane active p-3" id="productEngineering" role="tabpanel">
+                <div class="py-1">
+                  <h6>NX Design & Drafting</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:95%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>SolidWorks Design & Drafting</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Rapid Prototyping</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:95%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Sketching</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:70%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>3D Printing</h6>
+                  <div class="progress mb-2">
+                    <div class="progress-bar bg-primary" style="width:80%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane p-3 fade in" id="webDevelopment" role="tabpanel">
+                <div class="py-1">
+                  <h6>HTML</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:95%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>CSS</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:70%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Python</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:85%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Firebase</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Bootstrap</h6>
+                  <div class="progress mb-2">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade in p-3" id="businessAnalytics" role="tabpanel">
+                <div class="py-1">
+                  <h6>Databases</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Business Plans</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:85%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Financial Models</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:80%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Customer Interviews</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Market Research</h6>
+                  <div class="progress mb-2">
+                    <div class="progress-bar bg-primary" style="width:75%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade in p-3" id="otherSkills" role="tabpanel">
+                <div class="py-1">
+                  <h6>Microsoft Office</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:95%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Lucidchart</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>VideoScribe</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>YouiDraw</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:80%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Rubik's Cube</h6>
+                  <div class="progress mb-2">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade in p-3" id="softSkills" role="tabpanel">
+                <div class="py-1">
+                  <h6>Collaboration</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Organization</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:95%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Diligence</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Problem Solving</h6>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width:90%"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <h6>Initiative</h6>
+                  <div class="progress mb-2">
+                    <div class="progress-bar bg-primary" style="width:95%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO PLAY SECTION -->
+  <section id="video-play">
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <h1>See What I Do!</h1>
+          <a
+          href="#"
+          class="video"
+          data-video="http://www.youtube.com/embed/HnwsG9a5riA"
+          data-toggle="modal"
+          data-target="#videoModal"
+          >
+            <i class="fa fa-play"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer id="main-footer" class="p-4 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-left">
+          <a class="btn btn-outline-secondary"><i class="fa fa-cloud"></i> Download Resume</a>
+        </div>
+        <div class="col-md-6 text-right d-none d-md-block">
+          <p>Copyright 2017 &copy; Portfolio | Timothy Jacque</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+          <iframe src="#" height="350" width="100%" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
